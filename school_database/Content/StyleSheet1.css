@@ -1,0 +1,161 @@
+﻿
+/*GENERAL CSS*/
+body{
+    margin:0;
+}
+/*
+.cwidth {
+    max-width: 1080px;
+    margin: 0 auto;
+}*/
+
+header, footer {
+    background: #b2b2b2;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+
+/*CSS FOR TABLE-LIKE STYLING*/
+#students_result {
+    width: 100%;
+}
+
+.listitem {
+    background: #fefefe;
+    padding: 12px 5%;
+    width: 90%;
+    overflow: hidden;
+}
+
+    .listitem:after {
+        clear: both;
+    }
+
+    .listitem:nth-child(2n) {
+        background: #dedede;
+    }
+
+    .listitem:hover {
+        background: #e9d898;
+    }
+
+.col4, .col4last {
+    float: left;
+    width: 21.73%;
+    margin-right: 4.34%;
+}
+
+.col4last {
+    margin-right: 0%;
+}
+/*-----------------login  css -----------------*/
+.login-form {
+    display: block;
+    font-size: 30px;
+    color: #4b2354;
+    line-height: 1.2;
+    text-align: center;
+    background-image: url(/images/banner-login.jpg);
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ login ]*/
+
+.container-form {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/images/banner.jpg);
+}
+
+
+.container-login {
+    width: 490px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+/*==================================================================
+[ Form ]*/
+
+.login100-form {
+    width: 100%;
+}
+
+.login-form-title {
+    display: block;
+    font-size: 30px;
+    color: #4b2354;
+    text-align: center;
+}
+
+/*------------------------------------------------------------------
+[ Input ]*/
+
+.wrap-input {
+    position: relative;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.input100 {
+    font-size: 16px;
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    height: 62px;
+    background: transparent;
+    padding: 0 20px 0 23px;
+}
+
+
+
+/*------------------------------------------------------------------
+[ Button ]*/
+
+.login-form-btn {
+    height: 50px;
+    background-color: #bd59d4;
+    border-radius: 25px;
+    font-size: 14px;
+    color: #fff;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
+    -moz-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
+    -webkit-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
+    -o-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
+    -ms-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
+}
+
+
+
+
+
