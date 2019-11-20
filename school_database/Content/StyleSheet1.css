@@ -2,49 +2,62 @@
 /*GENERAL CSS*/
 body{
     margin:0;
+    font-family:Arvo;
 }
-/*
-.cwidth {
-    max-width: 1080px;
-    margin: 0 auto;
-}*/
 
 header, footer {
     background: #b2b2b2;
 }
 
-header {
-    margin-bottom: 50px;
-}
-
-footer {
-    margin-top: 50px;
-}
 
 
 /*CSS FOR TABLE-LIKE STYLING*/
+
 #students_result {
     width: 100%;
 }
 
-.listitem {
-    background: #fefefe;
-    padding: 12px 5%;
-    width: 90%;
-    overflow: hidden;
+.table tr td{
+    text-align:center;
+}
+.students_result {
+    width: 100%;
 }
 
-    .listitem:after {
-        clear: both;
+
+/*------------------display_student --------------*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+}
+
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
 
-    .listitem:nth-child(2n) {
-        background: #dedede;
-    }
+img {
+    border-radius: 5px 5px 0 0;
+}
 
-    .listitem:hover {
-        background: #e9d898;
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .col4, .col4last {
     float: left;
