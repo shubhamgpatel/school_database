@@ -10,7 +10,7 @@
 namespace school_database {
     
     
-    public partial class display_student {
+    public partial class delete_student {
         
         /// <summary>
         /// student control.
@@ -22,48 +22,48 @@ namespace school_database {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl student;
         
         /// <summary>
-        /// student_title control.
+        /// student_name_update control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl student_title;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl student_name_update;
         
         /// <summary>
-        /// student_firstname control.
+        /// student_firstname_update control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl student_firstname;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl student_firstname_update;
         
         /// <summary>
-        /// student_lastname control.
+        /// student_lastname_update control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl student_lastname;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl student_lastname_update;
         
         /// <summary>
-        /// student_no control.
+        /// student_number_update control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl student_no;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl student_number_update;
         
         /// <summary>
-        /// enrolment_date control.
+        /// enrolment_date_update control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl enrolment_date;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl enrolment_date_update;
     }
 }

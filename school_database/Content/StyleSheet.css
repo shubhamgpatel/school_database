@@ -3,27 +3,26 @@
 body{
     margin:0;
     font-family:Arvo;
+    background-color:aqua;
+   
 }
 
 header, footer {
-    background: #b2b2b2;
+    background: #b2b2b2;}
+.header ul li{
+    list-style:none;
 }
 
-
-
 /*CSS FOR TABLE-LIKE STYLING*/
+
 
 #students_result {
     width: 100%;
 }
 
-.table tr td{
-    text-align:center;
-}
 .students_result {
     width: 100%;
 }
-
 
 /*------------------display_student --------------*/
 .card {
@@ -40,23 +39,6 @@ header, footer {
 img {
     border-radius: 5px 5px 0 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .col4, .col4last {

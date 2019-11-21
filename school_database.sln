@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "school_database", "school_database\school_database.csproj", "{E484C34C-DDF1-4D27-AB3F-59EB023C02FE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9D54C7B7-AC3E-40A4-8BFC-87F22734DE92}"
+	ProjectSection(SolutionItems) = preProject
+		school_style.css = school_style.css
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

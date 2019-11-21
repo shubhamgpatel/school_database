@@ -1,17 +1,8 @@
-﻿<%@ Page Title="Schoool Database" Language="C#" MasterPageFile="~/school.Master" AutoEventWireup="true" CodeBehind="main_content.aspx.cs" Inherits="school_database.main_content" %>
+﻿<%@ Page Title="Schoool Database" Language="C#" MasterPageFile="~/school.Master" AutoEventWireup="true" CodeBehind="all_students.aspx.cs" Inherits="school_database.main_content" %>
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
-   <!--- <div class="table_display" runat="server">
-        <div class="table-responsive ">
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">First Name</div>
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">Last Name</div>
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">Student Number</div>
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">Enrollment Date</div>
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">Modifications</div>
-        </div>
-    </div>-->
-
+ 
         <div class="container">
 
             <div class="student_nav">

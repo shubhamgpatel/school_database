@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace school_database
 {
-    public partial class display_student : System.Web.UI.Page
+    public partial class Update_student : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -23,11 +23,11 @@ namespace school_database
 
                 if (student_record.Count > 0)
                 {
-                    student_title.InnerHtml = student_record["STUDENTFNAME"] + " " + student_record["STUDENTLNAME"];
-                    student_firstname.InnerHtml = student_record["STUDENTFNAME"];
-                    student_lastname.InnerHtml = student_record["STUDENTLNAME"];
-                    student_no.InnerHtml = student_record["STUDENTNUMBER"];
-                    enrolment_date.InnerHtml = student_record["ENROLMENTDATE"];
+                    student_name_update.InnerHtml = student_record["STUDENTFNAME"] + " " + student_record["STUDENTLNAME"];
+                    student_firstname_update.Value = student_record["STUDENTFNAME"];
+                    student_lastname_update.Value = student_record["STUDENTLNAME"];
+                    student_number_update.Value = student_record["STUDENTNUMBER"];
+                    enrolment_date_update.Value = student_record["ENROLMENTDATE"];
                 }
                 else
                 {
@@ -40,6 +40,11 @@ namespace school_database
                 student.InnerHtml = "There was an error finding that student.";
             }
 
+        }
+        protected void update_student(object sender, ServerValidateEventArgs e)
+        {
+
+            
         }
     }
 }

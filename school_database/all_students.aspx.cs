@@ -45,22 +45,22 @@ namespace school_database
                 //students_result.InnerHtml += "<div class=\"table-responsive\">";
                 students_result.InnerHtml += "<tr>";
 
-                string studentid = row["STUDENTID"];
+                string StudentId = row["STUDENTID"];
 
-                string studentfirstname = row["STUDENTFNAME"];
+                string StudentFirstname = row["STUDENTFNAME"];
               //  students_result.InnerHtml += "<div class=\"col-lg-2 col-md-2 col-sm-2 col-xs-12\"><a href=\"ShowStudent.aspx?studentid=" + studentid + "\">" + studentfirstname + "</a></div>";
-                students_result.InnerHtml += "<td><a href=\"display_student.aspx?studentid=" + studentid + "\">" + studentfirstname + "</a></td>";
+                students_result.InnerHtml += "<td><a href=\"display_student.aspx?studentid=" + StudentId + "\">" + StudentFirstname + "</a></td>";
 
-                string studentlastname = row["STUDENTLNAME"];
-                students_result.InnerHtml += "<td>" + studentlastname + "</td>";
+                string StudentLastname = row["STUDENTLNAME"];
+                students_result.InnerHtml += "<td>" + StudentLastname + "</td>";
 
-                string studentnumber = row["STUDENTNUMBER"];
-                students_result.InnerHtml += "<td>" + studentnumber + "</td>";
+                string StudentNumber = row["STUDENTNUMBER"];
+                students_result.InnerHtml += "<td>" + StudentNumber + "</td>";
 
-                string enrolmentdate = row["ENROLMENTDATE"];
-                students_result.InnerHtml += "<td>" + enrolmentdate + "</td>";
+                string EnrolmentDate = row["ENROLMENTDATE"];
+                students_result.InnerHtml += "<td>" + EnrolmentDate + "</td>";
 
-                students_result.InnerHtml += "<td><span class=\"glyphicon glyphicon-edit\"></span> <span class=\"icon-bin\"></span>    </td>";
+                students_result.InnerHtml += "<td><a href=\"update_student.aspx?studentid=" + StudentId + "\"><span class=\"glyphicon glyphicon-edit\"></span></a><a href=\"delete_student.aspx?studentid=" + StudentId + "\"><span class=\"icon-bin\"></span></a></td>";
 
                 students_result.InnerHtml += "</tr>";
             }
