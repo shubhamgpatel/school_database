@@ -11,106 +11,133 @@ namespace school_database
 {
 
 
-    public partial class update_student
+    public partial class update_classes
     {
 
         /// <summary>
-        /// student control.
+        /// classes control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl student;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl classes;
 
         /// <summary>
-        /// student_name_update control.
+        /// classes_update control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl student_name_update;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl classes_update;
 
         /// <summary>
-        /// first_name_label control.
+        /// class_id_label control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label first_name_label;
+        protected global::System.Web.UI.WebControls.Label class_id_label;
 
         /// <summary>
-        /// student_first_name_update control.
+        /// class_id_update control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox student_first_name_update;
+        protected global::System.Web.UI.WebControls.TextBox class_id_update;
 
         /// <summary>
-        /// last_name_label control.
+        /// class_code_label control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label last_name_label;
+        protected global::System.Web.UI.WebControls.Label class_code_label;
 
         /// <summary>
-        /// student_last_name_update control.
+        /// class_code_update control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox student_last_name_update;
+        protected global::System.Web.UI.WebControls.TextBox class_code_update;
 
         /// <summary>
-        /// student_number_label control.
+        /// teacher_id_label control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label student_number_label;
+        protected global::System.Web.UI.WebControls.Label teacher_id_label;
 
         /// <summary>
-        /// student_no_update control.
+        /// teacher_id_update control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox student_no_update;
+        protected global::System.Web.UI.WebControls.TextBox teacher_id_update;
 
         /// <summary>
-        /// enrolment_date_update control.
+        /// start_date_label control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText enrolment_date_update;
+        protected global::System.Web.UI.WebControls.Label start_date_label;
 
         /// <summary>
-        /// enrollment_date_label control.
+        /// start_date_update control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label enrollment_date_label;
+        protected global::System.Web.UI.WebControls.TextBox start_date_update;
 
         /// <summary>
-        /// enrollment_date_update control.
+        /// finish_date_label control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox enrollment_date_update;
+        protected global::System.Web.UI.WebControls.Label finish_date_label;
+
+        /// <summary>
+        /// finish_date_update control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox finish_date_update;
+
+        /// <summary>
+        /// class_name_label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label class_name_label;
+
+        /// <summary>
+        /// class_name_update control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox class_name_update;
     }
 }

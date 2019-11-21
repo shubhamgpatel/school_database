@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/school.Master" AutoEventWireup="true" CodeBehind="Update_student.aspx.cs" Inherits="school_database.Update_student" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/school.Master" AutoEventWireup="true" CodeBehind="update_student.aspx.cs" Inherits="school_database.update_student" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="body" runat="server">
     <div id="student" runat="server">
             <div class="container">
@@ -14,7 +14,7 @@
                       <asp:TextBox ID="student_last_name_update" runat="server"></asp:TextBox>
                 </div>
                 <div>
-                     <asp:Label ID="student_nuber_label" Text="Student Number:" runat="server"></asp:Label> 
+                     <asp:Label ID="student_number_label" Text="Student Number:" runat="server"></asp:Label> 
                       <asp:TextBox ID="student_no_update" runat="server"></asp:TextBox>
                 </div>
                 <div>
@@ -23,7 +23,7 @@
                       <asp:TextBox ID="enrollment_date_update" runat="server"></asp:TextBox>
                 </div>
                 <div>
-                    <input type="button" value="Update" onclick="update_student()" />
+                    <input type="button" value="update" onclick="update_student()" />
                 </div>
                 
             </div>

@@ -13,7 +13,7 @@
             <ul>
                 <li><a href="all_students.aspx" title="students">Students</a></li>
                 <li><a href="all_faculties.aspx" title="Faculties">Faculties</a></li>
-                <li><a href="all_courses.aspx" title="Courses">Courses</a></li>
+                <li><a href="all_classes.aspx" title="classes">Classes</a></li>
             </ul>
         </div>
         <!-- Main Content -------------->

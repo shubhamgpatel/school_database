@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace school_database
 {
-    public partial class Update_student : System.Web.UI.Page
+    public partial class update_student : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -41,10 +41,6 @@ namespace school_database
             }
 
         }
-        protected void update_student(object sender, ServerValidateEventArgs e)
-        {
-
-            
-        }
+       
     }
 }
