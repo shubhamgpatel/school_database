@@ -24,10 +24,10 @@ namespace school_database
                 if (student_record.Count > 0)
                 {
                     student_name_update.InnerHtml = student_record["STUDENTFNAME"] + " " + student_record["STUDENTLNAME"];
-                    student_firstname_update.Value = student_record["STUDENTFNAME"];
-                    student_lastname_update.Value = student_record["STUDENTLNAME"];
-                    student_number_update.Value = student_record["STUDENTNUMBER"];
-                    enrolment_date_update.Value = student_record["ENROLMENTDATE"];
+                    student_first_name_update.Text = student_record["STUDENTFNAME"];
+                    student_last_name_update.Text = student_record["STUDENTLNAME"];
+                    student_no_update.Text = student_record["STUDENTNUMBER"];
+                    enrollment_date_update.Text = student_record["ENROLMENTDATE"];
                 }
                 else
                 {

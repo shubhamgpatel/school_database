@@ -1,20 +1,28 @@
-﻿
-/*GENERAL CSS*/
-body{
+﻿body{
     margin:0;
     font-family:Arvo;
-    background-color:aqua;
-   
 }
-
-header, footer {
-    background: #b2b2b2;}
-.header ul li{
-    list-style:none;
+.header {
+    height: 60px;
+    background-color: #4f7ee9;
+}
+    .header ul li {
+        list-style: none;
+        display: inline-block;
+        margin-top: 12px;
+        padding-left: 20px;
+    }
+.header ul li a {
+    font-size:22px;
+    color:#fff;
+    text-decoration:none;
+}
+.student_nav {
+    float: right;
+    font-size: 17px;
 }
 
 /*CSS FOR TABLE-LIKE STYLING*/
-
 
 #students_result {
     width: 100%;
@@ -32,9 +40,9 @@ header, footer {
     border-radius: 5px;
 }
 
-    .card:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    }
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 
 img {
     border-radius: 5px 5px 0 0;

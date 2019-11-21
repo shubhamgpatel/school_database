@@ -6,10 +6,13 @@
         <div class="container">
 
             <div class="student_nav">
-            <asp:label for="student_search" runat="server">Search:</asp:label>
-            <asp:TextBox ID="student_search" runat="server"></asp:TextBox>
-            <asp:Button runat="server" text="submit"/>
+             <div>
+                <asp:label for="student_search" runat="server">Search:</asp:label>
+                <asp:TextBox ID="student_search" runat="server"></asp:TextBox>
+            
+            <asp:Button runat="server" text="Search"/>
             <div id="sql_debugger" runat="server"></div>
+                 </div>
             <%
             //todod: search by keyword
             //search by semester selection(?) -- calendar picker before/after? -- range?
@@ -25,10 +28,10 @@
             <th>Enrollment Date</th>
             <th>Modifications</th>
              </tr>
-            
         </thead>
-            
-    </table>
+         </table>   
+    
       <div id="students_result" runat="server"></div>
+
         </div>
 </asp:Content>

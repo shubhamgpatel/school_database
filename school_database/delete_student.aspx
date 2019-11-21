@@ -3,21 +3,13 @@
     <div id="student" runat="server">
             <div class="container">
                 <div>
-                    <h2>Delete <span id="student_name_update" runat="server"></span></h2>
+                    <h2>Are you sure you want to Delete <b><span type="text" id="student_firstname_update" runat="server"></span> from database ?</h2>
                 </div>
                  <div>
-                     First Name: <span type="text" id="student_firstname_update" runat="server"></span>
+                    <input type="button" value="Confirm" />
+                    <input type="button" value="Cancel" />
                  </div>
-                <div>
-                    Last Name: <span id="student_lastname_update" runat="server"></span>
-                </div>
-                <div>
-                    Student Number: <span id="student_number_update" runat="server"></span> 
-                </div>
-                <div>
-                    Enrolment Date: <span id="enrolment_date_update" runat="server"></span>
-                </div>
-                
+                             
             </div>
      </div>
 </asp:Content>

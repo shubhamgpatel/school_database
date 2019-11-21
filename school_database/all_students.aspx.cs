@@ -60,7 +60,7 @@ namespace school_database
                 string EnrolmentDate = row["ENROLMENTDATE"];
                 students_result.InnerHtml += "<td>" + EnrolmentDate + "</td>";
 
-                students_result.InnerHtml += "<td><a href=\"update_student.aspx?studentid=" + StudentId + "\"><span class=\"glyphicon glyphicon-edit\"></span></a><a href=\"delete_student.aspx?studentid=" + StudentId + "\"><span class=\"icon-bin\"></span></a></td>";
+                students_result.InnerHtml += "<td><a href=\"update_student.aspx?studentid=" + StudentId + "\"><span class=\"glyphicon glyphicon-edit\"></span></a><a href=\"delete_student.aspx?studentid=" + StudentId + "\"><span class=\"glyphicon glyphicon-trash\"></span></a></td>";
 
                 students_result.InnerHtml += "</tr>";
             }

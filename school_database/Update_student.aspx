@@ -6,16 +6,21 @@
                     <h2>Update for <span id="student_name_update" runat="server"></span></h2>
                 </div>
                  <div>
-                     First Name: <input type="text" id="student_firstname_update" runat="server" />
+                      <asp:Label ID="first_name_label" Text="First name:" runat="server"></asp:Label> 
+                     <asp:TextBox ID="student_first_name_update" runat="server"></asp:TextBox>
                  </div>
-                <div>
-                    Last Name: <input type="text" id="student_lastname_update" runat="server" />
+                <div> 
+                    <asp:Label ID="last_name_label" Text="Last Name:" runat="server"></asp:Label> 
+                      <asp:TextBox ID="student_last_name_update" runat="server"></asp:TextBox>
                 </div>
                 <div>
-                    Student Number: <input type="text" id="student_number_update" runat="server" ReadOnly="true" /> 
+                     <asp:Label ID="student_nuber_label" Text="Student Number:" runat="server"></asp:Label> 
+                      <asp:TextBox ID="student_no_update" runat="server"></asp:TextBox>
                 </div>
                 <div>
-                    Enrolment Date: <input type="date" id="enrolment_date_update" runat="server" />
+                    Enrolment Date: <input type="text" id="enrolment_date_update" runat="server" />
+                     <asp:Label ID="enrollment_date_label" Text="Enrollment Date:" runat="server"></asp:Label> 
+                      <asp:TextBox ID="enrollment_date_update" runat="server"></asp:TextBox>
                 </div>
                 <div>
                     <input type="button" value="Update" onclick="update_student()" />

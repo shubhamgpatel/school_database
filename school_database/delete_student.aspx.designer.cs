@@ -22,15 +22,6 @@ namespace school_database {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl student;
         
         /// <summary>
-        /// student_name_update control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl student_name_update;
-        
-        /// <summary>
         /// student_firstname_update control.
         /// </summary>
         /// <remarks>
@@ -38,32 +29,5 @@ namespace school_database {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl student_firstname_update;
-        
-        /// <summary>
-        /// student_lastname_update control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl student_lastname_update;
-        
-        /// <summary>
-        /// student_number_update control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl student_number_update;
-        
-        /// <summary>
-        /// enrolment_date_update control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl enrolment_date_update;
     }
 }
