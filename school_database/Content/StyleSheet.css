@@ -6,6 +6,22 @@
 a:hover {
     text-decoration: none !important;
 }
+a {
+    text-decoration: none !important;
+    color:#aaa;
+}
+.add_student {
+    padding: 11px 8px 11px 0;
+    float: right !important;
+    display: block;
+    font-size: 20px;
+    border-radius: 16px;
+    background-color: #f0b600;
+    color:#fff;
+}
+.add-text{
+    color:#fff;
+}
 
 .header {
     width: 100%;
@@ -34,6 +50,7 @@ a:hover {
     float: right;
     font-size: 17px;
     width: 100%;
+    margin-top: 15px;
 }
 
 .search {
@@ -145,4 +162,14 @@ label {
 dialog {
     animation: appear 350ms ease-in 1;
     max-width: 500px;
+}
+delete_btn {
+    background: #e4ac00;
+    color: #272323;
+    padding: .5em 1em;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    text-align: center;
+    display: block !important;
+    cursor: pointer;
 }
