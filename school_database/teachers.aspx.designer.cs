@@ -24,15 +24,6 @@ namespace school_database
         protected global::System.Web.UI.WebControls.TextBox search_teacher;
 
         /// <summary>
-        /// sql_debugger control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl sql_debugger;
-
-        /// <summary>
         /// teachers_list control.
         /// </summary>
         /// <remarks>

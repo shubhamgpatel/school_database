@@ -24,12 +24,12 @@ namespace school_database
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl classes;
 
         /// <summary>
-        /// class_id_delete control.
+        /// class_name_delete control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl class_id_delete;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl class_name_delete;
     }
 }

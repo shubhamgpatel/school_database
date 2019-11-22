@@ -5,7 +5,7 @@
                   <div class="panel-body">
                 <div>
                         <asp:TextBox ID="create_student_fname" class="form-control" placeholder="Enter first Name" runat="server"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="student_fname_validation" ControlToValidate="create_student_validation" runat="server"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="student_fname_validation" ControlToValidate="create_student_fname" runat="server"></asp:RequiredFieldValidator>
                 </div>
                     <div>
                     <asp:TextBox ID="create_lname" placeholder="Enter Last name"  class="form-control" runat="server"></asp:TextBox>

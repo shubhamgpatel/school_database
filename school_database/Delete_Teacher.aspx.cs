@@ -11,7 +11,30 @@ namespace school_database
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            bool valid = true;
+            string teacherid = Request.QueryString["teacherid"];
+            if (String.IsNullOrEmpty(teacherid)) valid = false;
 
+            //We will attempt to get the record we need
+            if (valid)
+            {
+                var db = new SCHOOLDB();
+                Dictionary<String, String> student_record = db.FindTeacher(Int32.Parse(teacherid));
+
+                if (student_record.Count > 0)
+                {
+                    teacher_firstname_delete.InnerHtml = student_record["TEACHERFNAME"];
+                }
+                else
+                {
+                    valid = false;
+                }
+            }
+
+            if (!valid)
+            {
+                teacher.InnerHtml = "Sorry!!!There was an error finding that student.";
+            }
         }
     }
 }

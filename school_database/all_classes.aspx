@@ -15,7 +15,7 @@
                  </div>
             </div>
             </div>
-            <div class="col-md-3 col-sm-3 col-xs-3 add_class">
+            <div class="col-md-3 col-sm-3 col-xs-3 add_student">
                 <a href="add_class.aspx" title="Click to add more class"><span class="add-text">Click to add more class!!</span></a>
             </div>
         

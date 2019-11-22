@@ -23,7 +23,7 @@ namespace school_database
                 //read more about SQL injections
                 //https://www.csoonline.com/article/3257429/what-is-sql-injection-how-sqli-attacks-work-and-how-to-prevent-them.html
                 //we will learn to defend against these attacks next semester
-                searchkey = teachers_list.InnerText;
+                searchkey = search_teacher.Text;
             }
 
 

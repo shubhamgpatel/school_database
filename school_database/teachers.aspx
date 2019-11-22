@@ -9,10 +9,10 @@
                 <div class="teacher_navigation">
              <div>
                 <asp:label for="search_teacher" runat="server">Search:</asp:label>
-            <asp:TextBox ID="search_teacher" runat="server"></asp:TextBox>
+                <asp:TextBox ID="search_teacher" runat="server"></asp:TextBox>
             
             <asp:Button runat="server" text="Search"/>
-         <!--   <div id="sql_debugger" runat="server"></div>-->
+       
                  </div>
             </div>
             </div>

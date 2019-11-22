@@ -19,13 +19,12 @@ namespace school_database
             string searchkey = "";
             if (Page.IsPostBack)
             {
-                //WARNING: This technique is vulnerable to SQL injections
-                //read more about SQL injections
                 //https://www.csoonline.com/article/3257429/what-is-sql-injection-how-sqli-attacks-work-and-how-to-prevent-them.html
                 //we will learn to defend against these attacks next semester
+                //HTTP School database for reference from christine file
                 searchkey = student_search.Text;
             }
-
+          
 
             string query = "select * from STUDENTS";
 
@@ -35,7 +34,7 @@ namespace school_database
                 query += " or STUDENTLNAME like '%" + searchkey + "%' ";
                 query += " or STUDENTNUMBER like '%" + searchkey + "%' ";
             }
-           //sql_debugger.InnerHtml = query;
+           
 
             var db = new SCHOOLDB();
             List<Dictionary<String, String>> rs = db.List_Query(query);
@@ -48,7 +47,7 @@ namespace school_database
                 string StudentId = row["STUDENTID"];
 
                 string StudentFirstname = row["STUDENTFNAME"];
-              //  students_result.InnerHtml += "<div class=\"col-lg-2 col-md-2 col-sm-2 col-xs-12\"><a href=\"ShowStudent.aspx?studentid=" + studentid + "\">" + studentfirstname + "</a></div>";
+                //  students_result.InnerHtml += "<div class=\"col-lg-2 col-md-2 col-sm-2 col-xs-12\"><a href=\"ShowStudent.aspx?studentid=" + studentid + "\">" + studentfirstname + "</a></div>";
                 students_result.InnerHtml += "<td><a href=\"display_student.aspx?studentid=" + StudentId + "\">" + StudentFirstname + "</a></td>";
 
                 string StudentLastname = row["STUDENTLNAME"];

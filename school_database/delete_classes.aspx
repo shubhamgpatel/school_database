@@ -9,7 +9,7 @@
                 <div class="panel panel-default delete_panel">
                   <div class="panel-heading"><h2>Confirm</h2></div>
                   <div class="panel-body">
-                      <h2>Are you sure you want to Delete <b><span type="text" id="class_id_delete" runat="server"></span></b> from database ?</h2>
+                      <h2>Are you sure you want to Delete <b><span type="text" id="class_name_delete" runat="server"></span></b> from database ?</h2>
                       </div>
                     <div class="confirm_cancel">
                      <asp:Button runat="server" class="delete_btn" Text="Confirm" />

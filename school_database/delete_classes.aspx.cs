@@ -23,7 +23,7 @@ namespace school_database
 
                 if (classes_record.Count > 0)
                 {
-                    class_id_delete.InnerHtml = classes_record["CLASSID"];
+                    class_name_delete.InnerHtml = classes_record["CLASSNAME"];
                 }
                 else
                 {
