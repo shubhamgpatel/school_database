@@ -10,24 +10,9 @@
             <asp:Button runat="server" text="Search"/>
             <div id="sql_debugger" runat="server"></div>
                  </div>
-            <%
-            //todod: search by keyword
-            //search by semester selection(?) -- calendar picker before/after? -- range?
-            //order by fname lname asc desc
-            %>
+            
             </div>
-        <table class="table table-bordered table-hover" runat="server">
-        <thead class="thead-dark">
-            <tr>
-                <th>Class ID</th>
-                <th>Class Code</th>
-                <th>Teacher ID</th>
-                <th>Start Date</th>
-                <th>Finish Date</th>
-                <th>Class Name</th>
-            </tr>
-        </thead>
-         </table>   
+   
     
       <div id="classes_result" runat="server"></div>
 

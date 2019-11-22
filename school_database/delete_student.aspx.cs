@@ -36,5 +36,6 @@ namespace school_database
                 student.InnerHtml = "There was an error finding that student.";
             }
         }
+       
     }
 }
