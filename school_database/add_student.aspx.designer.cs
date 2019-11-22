@@ -22,6 +22,15 @@ namespace school_database {
         protected global::System.Web.UI.WebControls.TextBox create_student_fname;
         
         /// <summary>
+        /// student_fname_validation control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator student_fname_validation;
+        
+        /// <summary>
         /// create_lname control.
         /// </summary>
         /// <remarks>
@@ -29,6 +38,15 @@ namespace school_database {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox create_lname;
+        
+        /// <summary>
+        /// student_lname_validation control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator student_lname_validation;
         
         /// <summary>
         /// create_studentID control.
@@ -40,6 +58,15 @@ namespace school_database {
         protected global::System.Web.UI.WebControls.TextBox create_studentID;
         
         /// <summary>
+        /// create_studentID_validation control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator create_studentID_validation;
+        
+        /// <summary>
         /// create_enrolment_date control.
         /// </summary>
         /// <remarks>
@@ -47,5 +74,23 @@ namespace school_database {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox create_enrolment_date;
+        
+        /// <summary>
+        /// create_enrolment_date_validation control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator create_enrolment_date_validation;
+        
+        /// <summary>
+        /// RegularExpressionValidator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
     }
 }
