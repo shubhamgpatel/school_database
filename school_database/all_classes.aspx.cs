@@ -11,6 +11,7 @@ namespace school_database
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
             //resets window because if we dont do this last search will not go
             classes_result.InnerHtml = "";
 
@@ -34,24 +35,24 @@ namespace school_database
                 query += " or TEACHERID like '%" + searchkey + "%' ";
                 query += " or CLASSNAME like '%" + searchkey + "%' ";
             }
-            sql_debugger.InnerHtml = query;
+            //sql_debugger.InnerHtml = query;
 
             var db = new SCHOOLDB();
             List<Dictionary<String, String>> rs = db.List_Query(query);
-            classes_result.InnerHtml += "<table class='table table-bordered table-hover'>";
+            classes_result.InnerHtml += "<table class=\"table table-bordered table-hover\"><tr><th>Class ID</th><th>Class Code</th><th>Teacher ID</th><th>Start Date</th><th>Finish Date</th><th>Class Name</th><th>Modifications</th>";
             foreach (Dictionary<String, String> row in rs)
             {
-                //students_result.InnerHtml += "<div class=\"table-responsive\">";
+                //classes_result.InnerHtml += "<div class=\"table-responsive\">";
                 classes_result.InnerHtml += "<tr>";
 
                 string ClassId = row["CLASSID"];
                 classes_result.InnerHtml += "<td>" + ClassId + "</td>";
                 string ClassCode = row["CLASSCODE"];
-                //  students_result.InnerHtml += "<div class=\"col-lg-2 col-md-2 col-sm-2 col-xs-12\"><a href=\"ShowStudent.aspx?studentid=" + studentid + "\">" + studentfirstname + "</a></div>";
-                classes_result.InnerHtml += "<td><a href=\"display_classes.aspx?class_id=" + ClassId + "\">" + ClassCode + "</a></td>";
+                //  classes_result.InnerHtml += "<div class=\"col-lg-2 col-md-2 col-sm-2 col-xs-12\"><a href=\"ShowClass.aspx?classid=" + classid + "\">" + classcode + "</a></div>";
+                classes_result.InnerHtml += "<td><a href=\"display_classes.aspx?classid=" + ClassId + "\">" + ClassCode + "</a></td>";
 
-                string TeacherID = row["TEACHERID"];
-                classes_result.InnerHtml += "<td>" + TeacherID + "</td>";
+                string TeacherId = row["TEACHERID"];
+                classes_result.InnerHtml += "<td>" + TeacherId + "</td>";
 
                 string StartDate = row["STARTDATE"];
                 classes_result.InnerHtml += "<td>" + StartDate + "</td>";
@@ -62,7 +63,7 @@ namespace school_database
                 string ClassName = row["CLASSNAME"];
                 classes_result.InnerHtml += "<td>" + ClassName + "</td>";
 
-                classes_result.InnerHtml += "<td><a href=\"update_classes.aspx?classid=" + ClassId + "\"><span class=\"glyphicon glyphicon-edit\"></span></a><a href=\"delete_classes.aspx?classid=" + ClassId + "\"><span class=\"glyphicon glyphicon-trash\"></span></a></td>";
+                classes_result.InnerHtml += "<td><a href=\"update_classes.aspx?classid=" +ClassId + "\"><span class=\"glyphicon glyphicon-edit\"></span></a><a href=\"delete_classes.aspx?classid=" + ClassId + "\"><span class=\"glyphicon glyphicon-trash\"></span></a></td>";
 
                 classes_result.InnerHtml += "</tr>";
             }

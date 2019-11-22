@@ -11,79 +11,61 @@ namespace school_database
 {
 
 
-    public partial class display_classes
+    public partial class add_class
     {
 
         /// <summary>
-        /// classes control.
+        /// create_class_id control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl classes;
+        protected global::System.Web.UI.WebControls.TextBox create_class_id;
 
         /// <summary>
-        /// class_title control.
+        /// create_class_code control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl class_title;
+        protected global::System.Web.UI.WebControls.TextBox create_class_code;
 
         /// <summary>
-        /// class_id control.
+        /// create_teacher_id control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl class_id;
+        protected global::System.Web.UI.WebControls.TextBox create_teacher_id;
 
         /// <summary>
-        /// class_code control.
+        /// create_start_date control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl class_code;
+        protected global::System.Web.UI.WebControls.TextBox create_start_date;
 
         /// <summary>
-        /// teacher_id control.
+        /// create_finish_date control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl teacher_id;
+        protected global::System.Web.UI.WebControls.TextBox create_finish_date;
 
         /// <summary>
-        /// start_date control.
+        /// create_class_name control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl start_date;
-
-        /// <summary>
-        /// finish_date control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl finish_date;
-
-        /// <summary>
-        /// class_name control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl class_name;
+        protected global::System.Web.UI.WebControls.TextBox create_class_name;
     }
 }

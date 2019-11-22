@@ -19,16 +19,16 @@ namespace school_database
             if (valid)
             {
                 var db = new SCHOOLDB();
-                Dictionary<String, String> class_record = db.FindClass(Int32.Parse(classid));
+                Dictionary<String, String> classes_record = db.FindClass(Int32.Parse(classid));
 
-                if (class_record.Count > 0)
+                if (classes_record.Count > 0)
                 {
-                    class_id.InnerHtml = class_record["CLASSID"];
-                    class_code.InnerHtml = class_record["CLASSCODE"];
-                    teacher_id.InnerHtml = class_record["TEACHERID"];
-                    start_date.InnerHtml = class_record["STARTDATE"];
-                    finish_date.InnerHtml = class_record["FINISHDATE"];
-                    class_name.InnerHtml = class_record["CLASSNAME"];
+                    class_id.InnerHtml = classes_record["CLASSID"];
+                    class_code.InnerHtml = classes_record["CLASSCODE"];
+                    teacher_id.InnerHtml = classes_record["TEACHERID"];
+                    start_date.InnerHtml = classes_record["STARTDATE"];
+                    finish_date.InnerHtml = classes_record["FINISHDATE"];
+                    class_name.InnerHtml = classes_record["CLASSNAME"];
                 }
                 else
                 {
@@ -40,6 +40,7 @@ namespace school_database
             {
                 classes.InnerHtml = "There was an error finding that class.";
             }
+
         }
     }
 }

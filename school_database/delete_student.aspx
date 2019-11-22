@@ -13,7 +13,7 @@
                       </div>
                     <div class="confirm_cancel">
                      <asp:Button runat="server" class="delete_btn" Text="Confirm" />
-                     <asp:Button runat="server" class="delete_btn" Text="Cancel" OnClientClick="window.open('all_students.aspx','_self');" />
+                     <asp:Button runat="server" class="delete_btn" Text="Cancel" OnClientClick="window.open('all_students.aspx');" />
                  </div>
                     </div>
                  
