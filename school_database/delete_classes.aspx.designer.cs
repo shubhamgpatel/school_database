@@ -11,7 +11,7 @@ namespace school_database
 {
 
 
-    public partial class delete_course
+    public partial class delete_classes
     {
 
         /// <summary>
@@ -24,12 +24,12 @@ namespace school_database
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl classes;
 
         /// <summary>
-        /// class_id_update control.
+        /// class_id_delete control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl class_id_update;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl class_id_delete;
     }
 }
