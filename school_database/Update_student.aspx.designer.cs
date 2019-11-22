@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace school_database
-{
-
-
-    public partial class update_student
-    {
-
+namespace school_database {
+    
+    
+    public partial class update_student {
+        
         /// <summary>
         /// student control.
         /// </summary>
@@ -22,7 +20,7 @@ namespace school_database
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl student;
-
+        
         /// <summary>
         /// student_name_update control.
         /// </summary>
@@ -31,7 +29,7 @@ namespace school_database
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl student_name_update;
-
+        
         /// <summary>
         /// first_name_label control.
         /// </summary>
@@ -40,7 +38,7 @@ namespace school_database
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label first_name_label;
-
+        
         /// <summary>
         /// student_first_name_update control.
         /// </summary>
@@ -49,7 +47,7 @@ namespace school_database
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox student_first_name_update;
-
+        
         /// <summary>
         /// last_name_label control.
         /// </summary>
@@ -58,7 +56,7 @@ namespace school_database
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label last_name_label;
-
+        
         /// <summary>
         /// student_last_name_update control.
         /// </summary>
@@ -67,16 +65,16 @@ namespace school_database
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox student_last_name_update;
-
+        
         /// <summary>
-        /// student_number_label control.
+        /// student_nuber_label control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label student_number_label;
-
+        protected global::System.Web.UI.WebControls.Label student_nuber_label;
+        
         /// <summary>
         /// student_no_update control.
         /// </summary>
@@ -85,16 +83,7 @@ namespace school_database
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox student_no_update;
-
-        /// <summary>
-        /// enrolment_date_update control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText enrolment_date_update;
-
+        
         /// <summary>
         /// enrollment_date_label control.
         /// </summary>
@@ -103,7 +92,7 @@ namespace school_database
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label enrollment_date_label;
-
+        
         /// <summary>
         /// enrollment_date_update control.
         /// </summary>

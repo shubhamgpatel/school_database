@@ -11,13 +11,8 @@
                 <asp:TextBox ID="student_search" runat="server"></asp:TextBox>
             
             <asp:Button runat="server" text="Search"/>
-            <div id="sql_debugger" runat="server"></div>
+         <!--   <div id="sql_debugger" runat="server"></div>-->
                  </div>
-            <%
-            //todod: search by keyword
-            //search by semester selection(?) -- calendar picker before/after? -- range?
-            //order by fname lname asc desc
-            %>
             </div>
         <table class="table table-bordered table-hover" runat="server">
         <thead class="thead-dark">

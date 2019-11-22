@@ -9,22 +9,22 @@
      <link rel="stylesheet" type="text/css" href="/Content/bootstrap.min.css" />
 </head>
 <body>
-        <div class="header">
-            <ul>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+            <div class="header">
+                 <ul>
                 <li><a href="all_students.aspx" title="students">Students</a></li>
                 <li><a href="all_faculties.aspx" title="Faculties">Faculties</a></li>
                 <li><a href="all_classes.aspx" title="classes">Classes</a></li>
             </ul>
+            </div>
+           
         </div>
         <!-- Main Content -------------->
-          <div>
+          <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 main_content">
              <form id="form1" runat="server">
                  <asp:ContentPlaceHolder ID="body" runat="server"> </asp:ContentPlaceHolder>
              </form>
           </div>
         <!--- Footer --------------------->
-     <div class="footer">
-
-     </div>
 </body>
 </html>

@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace school_database
 {
-    public partial class add_course : System.Web.UI.Page
+    public partial class add_student : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
