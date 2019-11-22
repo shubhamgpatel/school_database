@@ -1,28 +1,25 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/school.Master" AutoEventWireup="true" CodeBehind="teachers.aspx.cs" Inherits="school_database.teachers" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="body" runat="server">
     <div class="container">
-
-            <div class="teacher_navigation">
-            <asp:label for="search_teacher" runat="server">Search:</asp:label>
-            <asp:TextBox ID="search_teacher" runat="server"></asp:TextBox>
-            <asp:Button runat="server" text="submit"/>
-            <div id="sql_debugger" runat="server"></div>
-          
+        
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <h2>Teachers</h2>
             </div>
-        <table class="table table-bordered table-hover" runat="server">
-        <thead class="thead-dark">
-            <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Employee Number</th>
-            <th>Hire Date</th>
-            <th>Salary</th>
-            <th>Modifications</th>
-             </tr>
+            <div class="col-md-5 col-sm-5 col-xs-5">
+                <div class="teacher_navigation">
+             <div>
+                <asp:label for="search_teacher" runat="server">Search:</asp:label>
+            <asp:TextBox ID="search_teacher" runat="server"></asp:TextBox>
             
-        </thead>
-            
-    </table>
+            <asp:Button runat="server" text="Search"/>
+         <!--   <div id="sql_debugger" runat="server"></div>-->
+                 </div>
+            </div>
+            </div>
+        <div class="col-md-3 col-sm-3 col-xs-3 add_student">
+                <a href="Create_Teacher.aspx" title="Click to add more teachers"><span class="add-text">Click to add more teachers!!</span></a>
+            </div>
+     
       <div id="teachers_list" runat="server"></div>
-        </div>
+        </div>      
 </asp:Content>

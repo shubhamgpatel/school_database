@@ -1,29 +1,48 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/school.Master" AutoEventWireup="true" CodeBehind="Update_Teacher.aspx.cs" Inherits="school_database.Update_Teacher" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="body" runat="server">
     <div id="teacher_update" runat="server">
-            <div class="container">
-                <div>
-                    <h2>Update teacher <span id="update_teacher_name" runat="server"></span></h2>
-                </div>
+            <div class="update_panel">
+                <div class="panel panel-default">
+                  <div class="panel-heading">Update teacher <span runat="server" id="update_teacher_name"></span></div>
+                  <div class="panel-body">
+                
                  <div>
-                     Teacher First Name: <asp:TextBox id="update_teacher_fname" runat="server"></asp:TextBox>
+                     <asp:Label ID="first_name_label" Text="First name:" runat="server"></asp:Label> 
+                     <asp:TextBox id="update_teacher_fname" class="form-control" runat="server"></asp:TextBox>
+                     <asp:RequiredFieldValidator  runat="server" EnableClientScript="true" ErrorMessage="Please enter the first name" ControlToValidate="update_teacher_fname"></asp:RequiredFieldValidator>
                  </div>
                 <div>
-                    Teacher Last Name: <asp:TextBox id="update_teacher_lname" runat="server"></asp:TextBox>
+                    <asp:Label ID="last_name_label" Text="Last name:" runat="server"></asp:Label>
+                    <asp:TextBox id="update_teacher_lname" class="form-control" runat="server"></asp:TextBox>
+                    <asp:RequiredFieldValidator  runat="server" EnableClientScript="true" ErrorMessage="Please enter the lirst name" ControlToValidate="update_teacher_lname"></asp:RequiredFieldValidator>
                 </div>
                 <div>
-                    Employee Number: <asp:TextBox id="update_employee_number" runat="server"></asp:TextBox> 
+                    <asp:Label ID="employee_number_label" Text="Employee number:" runat="server"></asp:Label>
+                    <asp:TextBox id="update_employee_number" class="form-control" runat="server"></asp:TextBox>
+                    <asp:RequiredFieldValidator  runat="server" EnableClientScript="true" ErrorMessage="Please enter the employee number" ControlToValidate="update_employee_number"></asp:RequiredFieldValidator>
                 </div>
                 <div>
-                    Hire Date: <asp:TextBox TextMode="date" id="update_hire_date" runat="server"></asp:TextBox>
+                    <asp:Label ID="hire_date" Text="Hire Date:" runat="server"></asp:Label>
+                    <asp:TextBox TextMode="date" id="update_hire_date" class="form-control" runat="server"></asp:TextBox>
+                    <asp:RequiredFieldValidator  runat="server" EnableClientScript="true" ErrorMessage="Please enter the hire date" ControlToValidate="update_hire_date"></asp:RequiredFieldValidator>
                 </div>
                 <div>
-                    Salary: <asp:TextBox id="update_salary" runat="server"></asp:TextBox>
+                    <asp:Label ID="salary_label" Text="Salary:" runat="server"></asp:Label>
+                    <asp:TextBox id="update_salary" class="form-control" runat="server"></asp:TextBox>
+                    <asp:RequiredFieldValidator  runat="server" EnableClientScript="true" ErrorMessage="Please enter the salary" ControlToValidate="update_salary"></asp:RequiredFieldValidator>
                 </div>
                 <div>
                     <asp:Button runat="server" Text="submit" value="Update"  />
                 </div>
                 
+            <label for="toggle" id="toggle">Update</label>
+            <dialog>  <p>  Teacher updated!!</p>
+              <label for="toggle">View Database</label>
+            </dialog>
+                  </div>
+                </div>
+                
+             
             </div>
      </div>
 </asp:Content>

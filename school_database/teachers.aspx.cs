@@ -36,11 +36,12 @@ namespace school_database
                 query += " or EMPLOYEENUMBER like '%" + searchkey + "%' ";
             }
 
-            sql_debugger.InnerHtml = query;
+            //sql_debugger.InnerHtml = query;
 
             var db = new SCHOOLDB();
             List<Dictionary<String, String>> rs = db.List_Query(query);
-            teachers_list.InnerHtml += "<table class='table table-bordered table-hover'>";
+            teachers_list.InnerHtml += "<table class=\"table table-bordered table-hover\"><tr><th>Teacher First Name</th><th>Teacher Last Name</th><th>Employee No</th><th>Hire Date</th><th>Salary</th><th>Modifications</th>";
+
             foreach (Dictionary<String, String> row in rs)
             {
                 teachers_list.InnerHtml += "<tr>";
