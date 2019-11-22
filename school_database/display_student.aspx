@@ -11,10 +11,10 @@
                   </div>
                   <div class="panel-body">
                       <span class="" runat="server"></span>
-                       First Name: <span id="student_firstname" runat="server"></span><br />
-                        Last Name: <span id="student_lastname" runat="server"></span><br />
-                        Student Number: <span id="student_no" runat="server"></span><br />
-                        Enrolment Date: <span id="enrolment_date" runat="server"></span><br />
+                       First Name: <span id="student_firstname" class="form-control" runat="server"></span><br />
+                        Last Name: <span id="student_lastname" class="form-control" runat="server"></span><br />
+                        Student Number: <span id="student_no" class="form-control" runat="server"></span><br />
+                        Enrolment Date: <span id="enrolment_date" class="form-control" runat="server"></span><br />
                   </div>
                     <a href="all_students.aspx">Go to Database</a>
                 </div>

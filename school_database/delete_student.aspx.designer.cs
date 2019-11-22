@@ -22,12 +22,12 @@ namespace school_database {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl student;
         
         /// <summary>
-        /// student_firstname_update control.
+        /// student_firstname_delete control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl student_firstname_update;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl student_firstname_delete;
     }
 }

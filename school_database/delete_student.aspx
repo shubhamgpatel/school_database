@@ -3,11 +3,11 @@
     <div id="student" runat="server">
             <div class="container">
                 <div>
-                    <h2>Are you sure you want to Delete <b><span type="text" id="student_firstname_update" runat="server"></span> from database ?</h2>
+                    <h2>Are you sure you want to Delete <b><span type="text" id="student_firstname_delete" runat="server"></span></b> from database ?</h2>
                 </div>
                  <div>
-                    <input type="button" value="Confirm" />
-                    <input type="button" value="Cancel" />
+                     <asp:Button runat="server" CssClass="delete_btn" Text="Confirm" />
+                     <asp:Button runat="server" CssClass="delete_btn" Text="Cancel" />
                  </div>
                              
             </div>

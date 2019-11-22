@@ -39,7 +39,7 @@ namespace school_database
 
             var db = new SCHOOLDB();
             List<Dictionary<String, String>> rs = db.List_Query(query);
-            students_result.InnerHtml += "<table class='table table-bordered table-hover'>";
+            students_result.InnerHtml += "<table class=\"table table-bordered table-hover\"><tr><th>StudentID</th><th>Student Name</th><th>Student No</th><th>Enrolment Date</th><th>Modifications</th>";
             foreach (Dictionary<String, String> row in rs)
             {
                 //students_result.InnerHtml += "<div class=\"table-responsive\">";
