@@ -24,6 +24,15 @@ namespace school_database
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl teacher;
 
         /// <summary>
+        /// teacher_title control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl teacher_title;
+
+        /// <summary>
         /// teacher_list control.
         /// </summary>
         /// <remarks>

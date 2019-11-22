@@ -3,7 +3,7 @@
     <div id="teacher_update" runat="server">
             <div class="update_panel">
                 <div class="panel panel-default">
-                  <div class="panel-heading">Update teacher <span runat="server" id="update_teacher_name"></span></div>
+                  <div class="panel-heading">Update faculty <span runat="server" id="update_teacher_name"></span></div>
                   <div class="panel-body">
                 
                  <div>
@@ -31,10 +31,7 @@
                     <asp:TextBox id="update_salary" class="form-control" runat="server"></asp:TextBox>
                     <asp:RequiredFieldValidator  runat="server" EnableClientScript="true" ErrorMessage="Please enter the salary" ControlToValidate="update_salary"></asp:RequiredFieldValidator>
                 </div>
-                <div>
-                    <asp:Button runat="server" Text="submit" value="Update"  />
-                </div>
-                
+               
             <label for="toggle" id="toggle">Update</label>
             <dialog>  <p>  Teacher updated!!</p>
               <label for="toggle">View Database</label>

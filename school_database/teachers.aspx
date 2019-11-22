@@ -3,7 +3,7 @@
     <div class="container">
         
             <div class="col-md-4 col-sm-4 col-xs-4">
-                <h2>Teachers</h2>
+                <h2>Faculties</h2>
             </div>
             <div class="col-md-5 col-sm-5 col-xs-5">
                 <div class="teacher_navigation">
@@ -17,7 +17,7 @@
             </div>
             </div>
         <div class="col-md-3 col-sm-3 col-xs-3 add_student">
-                <a href="Create_Teacher.aspx" title="Click to add more teachers"><span class="add-text">Click to add more teachers!!</span></a>
+                <a href="Create_Teacher.aspx" title="Click to add more teachers"><span class="add-text">Click to add more faculties!!</span></a>
             </div>
      
       <div id="teachers_list" runat="server"></div>
