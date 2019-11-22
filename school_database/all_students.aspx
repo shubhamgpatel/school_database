@@ -21,8 +21,7 @@
             <div class="col-md-3 col-sm-3 col-xs-3 add_student">
                 <a href="add_student.aspx" title="Click to add more student"><span class="add-text">Click to add more student!!</span></a>
             </div>
-        
-    
+       
       <div id="students_result" runat="server"></div>
 
         </div>

@@ -37,7 +37,7 @@ namespace school_database
 
             if (!valid)
             {
-                student.InnerHtml = "There was an error finding that student.";
+                student.InnerHtml = "Sorry!!!There was an error finding that student.";
             }
 
         }

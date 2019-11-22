@@ -46,7 +46,7 @@ a {
         text-decoration: none;
     }
 
-.student_nav {
+.student_nav, .class_nav {
     float: right;
     font-size: 17px;
     width: 100%;

@@ -24,13 +24,13 @@ namespace school_database
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl classes;
 
         /// <summary>
-        /// classes_update control.
+        /// class_update control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl classes_update;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl class_update;
 
         /// <summary>
         /// class_id_label control.
